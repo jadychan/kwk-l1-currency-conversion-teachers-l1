@@ -1,6 +1,6 @@
 # Write your code here
 def usd_to_eur(dollar)
-  eur = dollar
+  eur = dollar * 1.2
   return eur
 end
 
