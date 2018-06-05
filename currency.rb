@@ -9,7 +9,7 @@ def eur_to_usd(eur)
   return dollar
 end
 
-def gbp_to_usd(eur)
+def gbp_to_usd(gbp)
   dollar = eur
   return dollar
 end
