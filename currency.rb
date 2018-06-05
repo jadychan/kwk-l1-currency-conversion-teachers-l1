@@ -24,7 +24,7 @@ def aud_to_usd(aud)
 end
 
 def usd_to_aud(usd)
-  return usd
+  return usd * 1.31
 end
 
 def usd_to_jpy(dollar)
