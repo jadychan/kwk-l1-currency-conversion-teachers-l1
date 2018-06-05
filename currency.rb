@@ -28,7 +28,7 @@ def usd_to_aud(usd)
 end
 
 def usd_to_jpy(dollar)
-  return dollar
+  return dollar * 109.72
 end
 
 def jpy_to_usd(jpy)
