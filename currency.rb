@@ -52,21 +52,21 @@ choice = gets.chomp().to_i
 
 case choice
 when 1
-  puts usd_to_eur(amount) + "euros"
+  puts usd_to_eur(amount) + " euros"
 when 2
-  puts usd_to_jpy(amount)
+  puts usd_to_jpy(amount) + " euros"
 when 3
-  puts usd_to_gbp(amount)
+  puts usd_to_gbp(amount) + " euros"
 when 4
-  puts usd_to_aud(amount)
+  puts usd_to_aud(amount) + " euros"
 when 5
-  puts eur_to_usd(amount)
+  puts eur_to_usd(amount) + " euros"
 when 6
-  puts jpy_to_usd(amount)
+  puts jpy_to_usd(amount) + " euros"
 when 7
-  puts gbp_to_usd(amount)
+  puts gbp_to_usd(amount) + " euros"
 when 8
-  puts aud_to_usd(amount)
+  puts aud_to_usd(amount) + " euros"
 else
   puts "Invalid input, exiting..."
 end
