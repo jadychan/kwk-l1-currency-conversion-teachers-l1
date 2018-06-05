@@ -20,7 +20,7 @@ def usd_to_gbp(dollar)
 end
 
 def aud_to_usd(aud)
-  return aud
+  return aud * 0.76
 end
 
 def usd_to_aud(usd)
