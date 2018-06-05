@@ -58,7 +58,7 @@ when 2
 when 3
   puts usd_to_gbp(amount) + " pounds"
 when 4
-  puts usd_to_aud(amount) + " euros"
+  puts usd_to_aud(amount) + " australian dollars"
 when 5
   puts eur_to_usd(amount) + " dollars"
 when 6
