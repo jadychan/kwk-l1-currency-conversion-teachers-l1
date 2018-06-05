@@ -54,19 +54,19 @@ case choice
 when 1
   puts usd_to_eur(amount).to_s + " euros"
 when 2
-  puts usd_to_jpy(amount) + " yen"
+  puts usd_to_jpy(amount).to_s + " yen"
 when 3
-  puts usd_to_gbp(amount) + " pounds"
+  puts usd_to_gbp(amount).to_s + " pounds"
 when 4
-  puts usd_to_aud(amount) + " australian dollars"
+  puts usd_to_aud(amount).to_s + " australian dollars"
 when 5
-  puts eur_to_usd(amount) + " dollars"
+  puts eur_to_usd(amount).to_s + " dollars"
 when 6
-  puts jpy_to_usd(amount) + " dollars"
+  puts jpy_to_usd(amount).to_s + " dollars"
 when 7
-  puts gbp_to_usd(amount) + " dollars"
+  puts gbp_to_usd(amount).to_s + " dollars"
 when 8
-  puts aud_to_usd(amount) + " dollars"
+  puts aud_to_usd(amount).to_s + " dollars"
 else
   puts "Invalid input, exiting..."
 end
