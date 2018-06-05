@@ -10,7 +10,7 @@ def eur_to_usd(eur)
 end
 
 def gbp_to_usd(gbp)
-  dollar = eur
+  dollar = gbp * 1.34
   return dollar
 end
 
