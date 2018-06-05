@@ -52,7 +52,7 @@ choice = gets.chomp().to_i
 
 case choice
 when 1
-  puts usd_to_eur(amount)
+  puts usd_to_eur(amount) + "euros"
 when 2
   puts usd_to_jpy(amount)
 when 3
