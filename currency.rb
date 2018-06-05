@@ -5,7 +5,7 @@ def usd_to_eur(dollar)
 end
 
 def eur_to_usd(eur)
-  dollar = eur
+  dollar = eur * 0.85
   return dollar
 end
 
