@@ -54,15 +54,15 @@ case choice
 when 1
   puts usd_to_eur(amount) + " euros"
 when 2
-  puts usd_to_jpy(amount) + " euros"
+  puts usd_to_jpy(amount) + " yen"
 when 3
   puts usd_to_gbp(amount) + " euros"
 when 4
   puts usd_to_aud(amount) + " euros"
 when 5
-  puts eur_to_usd(amount) + " euros"
+  puts eur_to_usd(amount) + " dollars"
 when 6
-  puts jpy_to_usd(amount) + " euros"
+  puts jpy_to_usd(amount) + " dollars"
 when 7
   puts gbp_to_usd(amount) + " euros"
 when 8
