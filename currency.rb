@@ -32,7 +32,7 @@ def usd_to_jpy(dollar)
 end
 
 def jpy_to_usd(jpy)
-  return jpy
+  return jpy * 0.0091
 end
 
 puts "How much money do you want to convert?"
