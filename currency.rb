@@ -56,7 +56,7 @@ when 1
 when 2
   puts usd_to_jpy(amount) + " yen"
 when 3
-  puts usd_to_gbp(amount) + " euros"
+  puts usd_to_gbp(amount) + " pounds"
 when 4
   puts usd_to_aud(amount) + " euros"
 when 5
@@ -64,9 +64,9 @@ when 5
 when 6
   puts jpy_to_usd(amount) + " dollars"
 when 7
-  puts gbp_to_usd(amount) + " euros"
+  puts gbp_to_usd(amount) + " dollars"
 when 8
-  puts aud_to_usd(amount) + " euros"
+  puts aud_to_usd(amount) + " dollars"
 else
   puts "Invalid input, exiting..."
 end
